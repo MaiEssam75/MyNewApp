@@ -1,6 +1,6 @@
 
 <footer>
-<div class="row">
+<div class=" row">
         <div class="copy-right col-6"> Copyright 2019 © Template by Mai Essam </div>
         </div>
 </footer>

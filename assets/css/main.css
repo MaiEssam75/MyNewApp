@@ -1,49 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
  font-family:'Kaushan Script',
- cursive
-}
-
-header {
- position:absolute;
- top:3%;
- left:25%;
- width:90%;
- color:#fff
+ cursive;
+ background-image: url("../imgs/3.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+  background-position: center; 
+  width: 100%;
 }
 
 .default {
  background:#112d514d;
  z-index:99;
  display:flex;
- justify-content:space-evenly;
- transition:.5s ease;
- width:100%;
- height:auto;
- padding-top:20px;
- position:absolute;
- top:10%
+ padding:20px;
+ margin: 10px 43px 10px 43px;
 }
-.scrolled {
- background:#000;
- position:fixed;
- top:0
-}
+
 nav a {
  color:#fff
 }
 
-nav .nav-links {
- display:block;
- width:50%
-}
-.nav-links .links {
- display:flex;
- justify-content:space-evenly
-}
-.links .drop {
- margin-top:-7px
-}
 .nav-links li a {
  font-size:18px;
  padding-left:5px;
@@ -51,77 +32,102 @@ nav .nav-links {
  text-transform:uppercase
 }
 
-footer {
-    background-color:black; 
-    color: #fff;
+/* start regester form */
+/*--- for label of username---*/
+.username{
+  margin-left: 5px;
+  font-family: sans-serif;
+  margin-top: 5px;
+  font-size: 17px;
 }
-.top-footer h2 {
- color:#ed4f4f
-}
-.top-footer p {
- color:#fff
-}
-.info {
 
-    flex-wrap: nowrap;
-    align-content: space-between;
+/*-------for email----------*/
+ /*------label----*/
+#email{
+   margin-top: 5px;
 }
-.info p {
- width:60%;
- margin-top: 38px;
+.mail{
+  margin-left: 5px;
+  font-family: sans-serif;
+  margin-top: 13px;
+  font-size: 17px;
 }
-footer .bottom-top {
- margin-top:70px
+
+/*-----------for Password--------*/
+    /*-------label-----*/
+
+.pass{
+    margin-top: 9px;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 9px;
+    font-size: 17px;
+  }
+  #password{
+   margin-top: 6px;
+  }
+  .cpass{
+    margin-top: 9px;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 9px;
+    font-size: 17px;
+  }
+  #cpassword{
+    margin-top: 6px;
+   }
+  /*--------------for Gender---------------*/
+       /*--------------label---------*/
+  .gender {
+       font-family: sans-serif; 
+       margin-left: 5px;
+       margin-top: 8px;
+       font-size: 17px;
+
+  }
+       /*---------- for Input type--------*/
+  .col-4.male{
+       font-size:20px;
+       margin-top: 9px;
+       padding-bottom: 16px;
+       padding-right: 10px;
+  }
+  .col-4.female {
+       font-size: 20px;
+       margin-top: 9px;
+       padding-bottom: 16px;
+  }	
+/*end regester form*/
+.btn{
+border-radius: 50px;
+background-color: rgb(221, 80, 134);
 }
-footer .contact {
- margin-left:-156px
+
+.mainn{
+  height: 450px;
 }
-footer .useful-links .main-text ul {
- position:absolute;
- top:100px
+input{
+  font-family: 'Times New Roman', Times, serif;
+
 }
-footer .contact .main-text ul {
- position:absolute;
- top:100px
+footer {
+background-color:black; 
+z-index:99;
+margin: 0px 43px 0px 43px;
 }
+
+
 footer .copy-right {
  text-align:center;
  margin:0 auto;
- margin-top:100px;
- color:#fff
-}
-.copy-right a {
- color:#fff
-}
-a {
- text-decoration:none;
- text-transform:capitalize;
- color:#000
+ margin-top:20px;
+ color:#ed4f4f
 }
 a:hover {
  text-decoration:none;
  color:#ed4f4f
 }
-ul {
- padding:0;
- margin:0;
- list-style:none
-}
-.Scroll-up {
- font-size:30px;
- color:#f8f8f8;
- background-color:#ed4f4f;
- width:40px;
- height:40px;
- text-align:center;
- border-radius:5px;
- position:fixed;
- right:20px;
- bottom:20px;
- z-index:9999;
- cursor:pointer;
- display:none
-}
+
 .loading-page {
  background-color:#f8f8f8;
  color:#fff;

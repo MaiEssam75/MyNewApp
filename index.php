@@ -1,8 +1,6 @@
-<?php require('header.php') ;?>
-<body>
-    <div class="container">
-        <h1>home page</h1>
+<?php include('header.php');?>
+
+    <div class="mainn container">
+        
     </div>
-</main>
-</body>
-<?php require('./footer.php');?>
+<?php include_once('./footer.php');?>
