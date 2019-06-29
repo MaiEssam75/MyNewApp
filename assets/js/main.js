@@ -10,9 +10,9 @@
  
  });
  function validateform(){  
-    var x=document.form["signupform"]["usernameBox"]["passwordBox"];   
+    var x=document.form["signupform"]["usernameBox"]["passwordBox"].value;   
       
-    if (x==null || x==""){  
+    if (x==null || x==""||x=='undefined'||x.length<=3){  
       alert("Name can't be blank");  
       return false;  
     }else if(password.length<6){  
