@@ -8,108 +8,118 @@ body {
  cursive;
  background-image: url("../imgs/3.jpg");
  background-repeat: no-repeat;
- background-attachment: fixed;
+ /* background-attachment: fixed; */
   background-position: center; 
   width: 100%;
 }
-
 .default {
  background:#112d514d;
  z-index:99;
  display:flex;
  padding:20px;
  margin: 10px 43px 10px 43px;
-}
+ position: relative;;
 
-nav a {
- color:#fff
 }
-
-.nav-links li a {
+.logoImg{
+  width: 100px;
+  height: 80px;
+}
+ nav LI a {
+ color:#fff;
+ text-decoration: none;
  font-size:18px;
- padding-left:5px;
- font-weight:400;
- text-transform:uppercase
+ padding-left:2px;
+ text-transform:uppercase;
+ margin: 15px;
+ position: relative;
+}
+ul{
+  display: flex;
+  list-style-type: none; 
+  padding-top: 20px;
 }
 
 /* start regester form */
-/*--- for label of username---*/
-.username{
-  margin-left: 5px;
-  font-family: sans-serif;
-  margin-top: 5px;
-  font-size: 17px;
-}
-
-/*-------for email----------*/
- /*------label----*/
-#email{
-   margin-top: 5px;
-}
-.mail{
-  margin-left: 5px;
-  font-family: sans-serif;
-  margin-top: 13px;
-  font-size: 17px;
-}
-
-/*-----------for Password--------*/
-    /*-------label-----*/
-
-.pass{
-    margin-top: 9px;
-    font-family: sans-serif;
-    margin-left: 5px;
-    margin-top: 9px;
-    font-size: 17px;
-  }
-  #password{
-   margin-top: 6px;
-  }
-  .cpass{
-    margin-top: 9px;
-    font-family: sans-serif;
-    margin-left: 5px;
-    margin-top: 9px;
-    font-size: 17px;
-  }
-  #cpassword{
-    margin-top: 6px;
-   }
-  /*--------------for Gender---------------*/
-       /*--------------label---------*/
-  .gender {
-       font-family: sans-serif; 
-       margin-left: 5px;
-       margin-top: 8px;
-       font-size: 17px;
-
-  }
-       /*---------- for Input type--------*/
-  .col-4.male{
-       font-size:20px;
-       margin-top: 9px;
-       padding-bottom: 16px;
-       padding-right: 10px;
-  }
-  .col-4.female {
-       font-size: 20px;
-       margin-top: 9px;
-       padding-bottom: 16px;
-  }	
-/*end regester form*/
-.btn{
-border-radius: 50px;
-background-color: rgb(221, 80, 134);
-}
-
-.mainn{
-  height: 450px;
+.signInRegiser{
+  padding-top: 10px;
+  display: flex;
 }
 input{
-  font-family: 'Times New Roman', Times, serif;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+.signupform{
+width: 500px;
+height: 500px;
+background-color: blueviolet;
+margin: auto;
+}
+/* .signupform{
+  background:#3c6382;
+  color:snow;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  font-weight: bold;
+  border: 6px solid #3c6382;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 35px;
+  text-decoration:none;
+  margin:0px 5px;
+  padding: 3px;
+  transition:0.3s all ease-in-out;
+
+} */
+
+/* .signupform:hover{
+   background:black;
+   border:6px solid black;
+   color: white;
+   box-shadow: 0px 0px 4px #080808;
+}
+
+.signupform input {
+  margin: 8px auto;
+  text-align: center;
+  width: 320px;
+  border:0px;
+  border-top:5px solid #222222;
+  height:40px;
+  border-radius:4px;
+  background:#cccc;
+}
+
+.signupform input:hover{
+  background:rgba(212, 172, 172, 0.933);
+}
+.signupform input:focus{
+  background:#eeee;
+}   */
+/*end regester form*/
+.btn{
+width: 70px;
+height: 40px;
+border-radius: 50px;
+background-color: rgb(221, 80, 134);
+border: none;
+font-family:'Kaushan Script';
+font-size: 18px;
+font-weight: bold;
+color:white;
+text-decoration: none;
+align-items: center;
 
 }
+.btn:hover{
+  color: #222222;
+}
+main{
+  height: 450px;
+}
+
 footer {
 background-color:black; 
 z-index:99;
@@ -123,9 +133,11 @@ footer .copy-right {
  margin-top:20px;
  color:#ed4f4f
 }
-a:hover {
+NAV LI a:hover {
  text-decoration:none;
- color:#ed4f4f
+ color:#ed4f4f;
+/* transition: all .6s; */
+
 }
 
 .loading-page {

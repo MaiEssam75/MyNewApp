@@ -20,9 +20,6 @@
     </div> 
    
     <script src="assets/js/jquery-1.11.1.min.js" type=''></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
     <script src="assets/js/jquery.countTo.js" type=''></script>
     <script src="assets/js/main.js" type='text/javascript'></script>
   </body>
