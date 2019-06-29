@@ -2,16 +2,16 @@
 <main>
       <section class="signupform">
             <form action="signup.inc.php" method="post">
-                  <h2>Create a New Account</h2><br/>
-                  <label for="user">User Name</label>
-                  <input type="text" name="usernameBox" placeholder="Your User Name" /><br/>
-                  <label for="email">Email</label>
-                  <input type="email" name="emailBox" placeholder="Your Email" /><br/>
-                  <label for="password">password</label>
-                  <input type="password" name="passwordBox" placeholder="Password" /><br/>
-                  <label for="cpassword"> confirm password</label>
-                  <input type="password" name="cpasswordBox" placeholder="Confirm Password" /><br/><br/><br/>
-                  <button type="submit" class="btn" name="signupSubmit">Sign up</button>
+                  <h1 style="color:green;border-bottom:1px solid #f1f0ea;padding-bottom:20px;text-align: center">Create a New Account</h1><br/>
+                 <h4> User Name : </h4>
+                  <input type="text" name="usernameBox" placeholder="Your User Name" require/><br/>
+                  <h4> Email : </h4>
+                  <input type="email" name="emailBox" placeholder="Your Email" require/><br/>
+                  <h4> password :  </h4>
+                  <input type="password" name="passwordBox" placeholder="Password"require /><br/>
+                  <h4> confirm password : </h4>
+                  <input type="password" name="cpasswordBox" placeholder="Confirm Password" require/><br/><br/><br/>
+                  <button type="submit" class="btn"style="margin-left: 50px;width: 400px;margin-bottom: 30px;" name="signupSubmit">Sign up</button>
             </form>
       </section>
 </main>
