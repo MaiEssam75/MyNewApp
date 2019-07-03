@@ -1,7 +1,7 @@
 <?php
 include_once('include/config.php');
 
-if(isset($_POST['signupSubmit']))
+if(isset($_POST['signupSubmit']))h
 {
      $username = $_POST['usernameBox'];
      $email    = $_POST['emailBox'];
